@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background:lightblue ;
+}
+.container{
+    background-image: linear-gradient(to left,rgb(139, 172, 209),rgb(89, 115, 146));
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    box-shadow: .2rem .3rem .4rem black;
+    transition: all 2s ease-in .1s;
+    animation-name: bg;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+@keyframes bg{
+    0%{
+        transform: scale(2);
+        transform: translateX(-4000px);
+    }
+    25%{
+        transform: scale(2);
+        transform: translateX(-1000px);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(1px);
+    }
+}
+h3{
+    font-size: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+input{
+    padding: .7rem;
+    border-radius: .7rem;
+    color: black;
+    text-shadow: none;
+    font-size: .9rem;
+}
+.top,.bottom{
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+.top{
+    background-image: linear-gradient(to left,#D02C8F, #80275c);
+}
+.bottom{
+    background-image: linear-gradient(to left,#A6C871,#6b8542);
+    text-shadow: none;
+}
+#submit{
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px white;
+    background-image: linear-gradient(to left, rgb(227, 230, 93),rgb(240, 186, 39));
+}
+#submit:hover{
+    position: relative;
+    left: 1rem;
+    border: .2rem solid rgb(253, 248, 249);
+}
+@media(max-width:530px){
+    .container{
+        width: 20rem;
+        height: 20rem;
+        justify-content: space-between;
+    }
+
+    form{
+        font-size: .9rem;
+    }
+    input{
+        padding: .4rem;
+        border-radius: .4rem;
+        font-size:.6rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+   
+    h3{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top"><h2>BMI CALCULATOR</h2></div>
+
+        <form action="" onsubmit="return false">
+        <pre>
+Weight: <input type="text" name="weight" placeholder="Weight in kg" required id="weight">
+
+Height: <input type="text" name="weight" placeholder="Height in ft" required id="height">
+
+BMI:    <input type="text" name="bmi" id="bmi">
+        </pre>
+        <input type="submit" id="submit" onclick="getBMI()" value="Check BMI">
+        </form>
+
+        <div class="bottom"><h3>A healthy BMI ranges between 19 and 25</h3></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
