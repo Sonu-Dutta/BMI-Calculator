@@ -14,7 +14,7 @@ body{
     background:lightblue ;
 }
 .container{
-    background-image: linear-gradient(to left,rgb(139, 172, 209),rgb(89, 115, 146));
+    background-image: linear-gradient(to bottom,rgb(139, 172, 209),rgb(89, 115, 146));
     display:flex ;
     flex-direction: column;
     align-items: center;
@@ -67,18 +67,19 @@ input{
     text-align: center;
 }
 .top{
-    background-image: linear-gradient(to left,#D02C8F, #80275c);
+    background-image: linear-gradient(to bottom,#D02C8F, #80275c);
 }
 .bottom{
-    background-image: linear-gradient(to left,#A6C871,#6b8542);
+    background-image: linear-gradient(to bottom,#A6C871,#6b8542);
     text-shadow: none;
 }
 #submit{
+    cursor: pointer;
     border: none;
     border-radius: 0;
     font-weight: bold;
     text-shadow: 1px 2px 3px white;
-    background-image: linear-gradient(to left, rgb(227, 230, 93),rgb(240, 186, 39));
+    background-image: linear-gradient(to bottom, rgb(227, 230, 93),rgb(240, 186, 39));
 }
 #submit:hover{
     position: relative;

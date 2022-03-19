@@ -4,7 +4,7 @@
 
 ### This is a Project on JavaScript, that calculates BMI Ratio.
 
-<!-- ![](./media/design.png) -->
+![](./media/design.png)
 
 ## My process
 
