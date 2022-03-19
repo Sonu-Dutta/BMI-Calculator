@@ -1,10 +1,10 @@
-# Calculator
+# BMI Calculator
 
 ## Overview
 
-### This is a Project on JavaScript, that performs addition, subtraction, multiplication and division!
+### This is a Project on JavaScript, that calculates BMI Ratio.
 
-![](./media/design.png)
+<!-- ![](./media/design.png) -->
 
 ## My process
 
